@@ -1,0 +1,15 @@
+# Ignore environments and caches
+venv/
+backend/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Ignore databases and personal notes
+backend/notes.db
+backend/forme.md
+*.db
+
+# Ignore OS/IDE files
+.DS_Store
+.vscode/
+.env
