@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  backend:
+image: 898982995578.dkr.ecr.eu-central-1.amazonaws.com/cloudnotes-backend:v1.2
+ports:
+      - "80:8000"
+environment:
+      - DATABASE_URL=postgresql://postgres:Berlin76@barisdemo-db.cvme42aa4koj.eu-central-1.rds.amazonaws.com:5432/postgres
+restart: always
