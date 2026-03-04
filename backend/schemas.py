@@ -10,7 +10,7 @@ class NoteUpdate(BaseModel):
     content: str | None = Field(None, min_length=1)
 
 class NoteResponse(BaseModel):
-    id: str
+    id: int
     title: str
     content: str
     created_at: datetime
