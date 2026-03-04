@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-image: 898982995578.dkr.ecr.eu-central-1.amazonaws.com/cloudnotes-backend:v1.2
+image: 898982995578.dkr.ecr.eu-central-1.amazonaws.com/cloudnotes-backend:v1.5
 ports:
       - "80:8000"
 environment:
