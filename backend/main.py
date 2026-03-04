@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from database import engine, get_db, Base
 from models import Note
-from Cloudnote.backend.schemas import NoteCreate, NoteUpdate, NoteResponse
+from schemas import NoteCreate, NoteUpdate, NoteResponse
 
 Base.metadata.create_all(bind=engine)
 
